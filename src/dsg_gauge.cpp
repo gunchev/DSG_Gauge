@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "dsg_gauge.h"
+#include <dsg_gauge.h>
 
 DSG_RawGauge::DSG_RawGauge(uint8_t pin) : m_v(512), m_pin(pin) {
 }
